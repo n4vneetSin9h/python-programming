@@ -67,3 +67,6 @@ def kwd_only_args(*, kwargs):
 
 def combined_args_example(pos_only, /, standard, *, kwd_only):
     print(pos_only, standard, kwd_only)
+
+
+kwd_only_args(kwargs='b')
